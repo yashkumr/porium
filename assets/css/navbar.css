@@ -1,0 +1,45 @@
+
+    .icon-user-2 {
+        position: relative !important;
+    }
+
+    .login-menu {
+
+        position: relative;
+    }
+
+    .login-menu ul {
+        display: none;
+    }
+
+    .login-menu:hover.login-menu ul {
+        display: block;
+    }
+
+
+
+    .login-menu ul {
+        z-index: 999;
+        position: absolute;
+        left: -82%;
+        text-align: center;
+        width: 120px;
+        background-color: rgb(255, 251, 251);
+    }
+
+
+    .login-menu ul li {
+        display: block;
+        padding: 5px;
+
+    }
+
+    .login-menu ul li:hover {
+
+        background-color: rgb(219, 215, 215);
+    }
+
+    .login-menu>ul>li>a {
+        color: black;
+        font-size: 15px;
+    }
